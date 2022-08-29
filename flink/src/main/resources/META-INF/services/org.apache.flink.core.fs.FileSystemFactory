@@ -13,4 +13,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-io.detla.flink.plugins.DeltaFileSystemFactory
+io.detla.flink.plugins.azure.DeltaFileSystemFactory
+io.detla.flink.plugins.gs.DeltaFileSystemFactory
+io.detla.flink.plugins.s3.DeltaFileSystemFactory

@@ -16,6 +16,6 @@ public class DeltaFileSystemFactory implements FileSystemFactory {
 
     @Override
     public FileSystem create(URI uri) throws IOException {
-        return  new DeltaFileSystem(null);
+        return new DeltaFileSystem();
     }
 }
