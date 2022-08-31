@@ -6,12 +6,13 @@ import org.apache.flink.core.fs.FSDataInputStream;
 import org.apache.flink.core.fs.FSDataOutputStream;
 import org.apache.flink.core.fs.FileStatus;
 import org.apache.flink.core.fs.Path;
+import org.apache.flink.runtime.fs.hdfs.HadoopFileSystem;
 
 import java.io.IOException;
 import java.net.URI;
 
 
-public class DeltaFileSystem extends org.apache.flink.core.fs.FileSystem {
+public class DeltaFileSystem extends  GSFileSystem {
 
     @Override
     public Path getWorkingDirectory() {
